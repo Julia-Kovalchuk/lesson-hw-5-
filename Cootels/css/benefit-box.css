@@ -1,0 +1,23 @@
+.box {
+  display: flex;
+  padding: 80px 106px 32px 0;
+}
+
+.box-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0 106px 80px 0;
+}
+
+.benefit__title {
+  margin-top: 113px;
+  margin-bottom: 24px;
+}
+
+.benefit__picture-right {
+  margin-left: 126px;
+}
+
+.benefit__picture-left {
+  margin-right: 126px;
+}
