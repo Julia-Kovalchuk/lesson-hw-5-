@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, sans-serif;
+  color: #192252;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 150%;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848fac;
+}
+
+.container {
+  padding: 0 5px;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.arrow-right {
+  display: inline-block;
+  background: url(../image/arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 20px;
+  height: 20px;
+}
