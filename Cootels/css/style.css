@@ -32,15 +32,13 @@ body {
   max-width: 1200px;
 }
 
-.button {
-  padding: 14px 16px;
-  background-color: #0e1734;
-  border: none;
-  border-radius: 4px;
+.arrow-right {
+  display: inline-block;
+  background: url(../image/arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #ffffff;
+  width: 20px;
+  height: 20px;
 }

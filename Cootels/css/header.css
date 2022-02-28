@@ -1,5 +1,8 @@
 .header {
-  padding: 37px 0 35px 0;
+  position: sticky;
+  top: 0;
+  padding: 37px 0 10px 0;
+  background: white;
 }
 
 .header__logo {

@@ -1,0 +1,35 @@
+.button {
+  padding: 16px 32px;
+  background-color: #0e1734;
+  border: none;
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.header__button {
+  padding: 14px 16px;
+}
+
+.button--variant--ghost {
+  padding: 0;
+  background: none;
+  color: #424f7b;
+}
+
+.button__right--icon {
+  margin-left: 12px;
+  vertical-align: middle;
+}
+
+.button--ghost {
+  padding: 0;
+  margin-left: 24px;
+  background: none;
+  color: #0e1734;
+  vertical-align: middle;
+}

@@ -1,0 +1,51 @@
+.carousel {
+  padding: 80px 5px 80px 5px;
+  margin: auto;
+  max-width: 793px;
+  text-align: center;
+}
+
+.carousel__title {
+  margin-bottom: 62px;
+
+  font-size: 36px;
+}
+
+.carousel__picture {
+  margin-bottom: 44px;
+  border-radius: 60px;
+}
+
+.carousel__review {
+  margin-bottom: 40px;
+}
+
+.carousel__reviewer {
+  margin-bottom: 24px;
+
+  font-size: 20px;
+}
+
+.carousel__circles {
+  max-width: 72px;
+  margin: auto;
+  display: flex;
+
+  justify-content: space-between;
+  text-align: center;
+}
+
+.carousel__circle {
+  background-color: rgba(250, 176, 71, 0.35);
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+
+  vertical-align: middle;
+}
+.carousel__circle--active {
+  background-color: #fab047;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+}
